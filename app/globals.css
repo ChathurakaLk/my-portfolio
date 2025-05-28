@@ -1,15 +1,43 @@
 @import "tailwindcss";
- 
+
 @theme inline {
+  /* Existing variables */
   --animate-spotlight: spotlight 2s ease 0.75s 1 forwards;
-  --color-black: #000;          
-  --color-black-100: #000319; 
+  --color-black: #000;
+  --color-black-100: #000319;
   --animate-first: moveVertical 30s ease infinite;
   --animate-second: moveInCircle 20s reverse infinite;
   --animate-third: moveInCircle 40s linear infinite;
   --animate-fourth: moveHorizontal 40s ease infinite;
   --animate-fifth: moveInCircle 20s ease infinite;
+
+  /* New colors from your palette */
+  --color-white: #FFF;
+  --color-white-100: #BEC1DD;
+  --color-white-200: #C1C2D3;
+
+  --color-blue-100: #E4ECFF;
+
+  --color-purple: #CBACF9;
+
+  /* Colors using CSS variables (hsl) */
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+
+    --animate-scroll: scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite;
 }
+
+ @keyframes scroll {
+    to {
+      transform: translate(calc(-50% - 0.5rem));
+    }
+  }
 
 @keyframes spotlight {
   0% {
