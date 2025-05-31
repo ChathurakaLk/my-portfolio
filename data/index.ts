@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently Building – Full Stack Inertia.js App",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,35 +72,27 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "WorkStream - Task Management App",
+    des: "A full-stack task management app inspired by Trello, built with Laravel and React. It features role-based access, task boards, and real-time updates.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    iconLists: ["/React.svg", "/tail.svg", "/Laravel.svg", "/jwt.svg"],
+    link: "https://github.com/ChathurakaLk",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Yoom – React Food App",
+    des: "Developed a responsive food delivery app using React and global APIs. Features include category-wise browsing, search functionality, and dynamic meal details.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    iconLists: ["/React.svg", "/tail.svg", "/ts.svg", "/c.svg"],
+    link: "https://github.com/ChathurakaLk/react-app-food",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Employee Management SaaS App",
+    des: "Built a full-featured SaaS platform for managing employee data, attendance, and performance. Developed using Laravel, Inertia.js, and React with role-based access, dynamic dashboards, and secure APIs.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    iconLists: ["/laravel.svg", "/jwt.svg", "/re.svg", "/tail.svg", "/c.svg"],
+    link: "https://github.com/ChathurakaLk/react-ins-laravel",
   },
 ];
 
@@ -140,78 +132,71 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Laravel",
+    nameImg: "/Laravel.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "React",
+    nameImg: "/React.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Tailwind CSS.svg",
+    nameImg: "/Tailwind CSS.svg",
   },
   {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
+      id: 4,
+      name: "Postman",
+      nameImg: "/postman.svg",
+    },
   {
     id: 5,
     name: "docker.",
     img: "/dock.svg",
     nameImg: "/dockerName.svg",
   },
+    {
+      id: 6,
+      name: "next.js",
+      nameImg: "/next.svg",
+    },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Full Stack Developer Intern – RightMo Web Solution",
+    desc: "Worked on RTB and School Management System (SMS) projects. Developed features using Laravel, React, and MySQL, contributing to both backend APIs and responsive frontend components.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp1.svg", 
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Laravel Developer – Personal Projects",
+    desc: "Developed multiple RESTful APIs and admin panels using Laravel. Built a full-stack task management app called Workstream (a Trello clone) using Laravel and React, with role-based access, task boards, and real-time updates. Focused on clean code practices, service classes, and custom JSON responses.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "React & Laravel Developer – Freelance Work",
+    desc: "Worked on multiple freelance sub-projects, including courier management systems and task-based apps. Built backends with Laravel, and frontends using React, Blade, AJAX, and Bootstrap. Also developed React + Inertia.js applications with RESTful APIs, focusing on UI responsiveness and dynamic interactions.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+
 ];
 
 export const socialMedia = [
   {
     id: 1,
+    link: "https://github.com/ChathurakaLk",
     img: "/git.svg",
   },
   {
-    id: 2,
-    img: "/twit.svg",
-  },
-  {
     id: 3,
+    link: "https://linkedin.com/in/chathuraka-lk",
     img: "/link.svg",
   },
 ];

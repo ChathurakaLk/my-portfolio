@@ -5,7 +5,7 @@ import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
 
 export default function Hero() {
-  const words = `Transforming Concept into Seamless User Experiences`;
+  const words =  `Turning Ideas into Interactive Digital Experiences`;
   return (
     <div className="pb-20 pt-36">
       <div>
@@ -33,17 +33,20 @@ export default function Hero() {
 
         <div className="flex justify-center z-10 my-20 relative">
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-            <h2 className="text-blue-100 uppercase tracking-widest text-xs text-center max-w-80">dynamic next magic</h2>
+            <h2 className="text-blue-100 uppercase tracking-widest text-xs text-center max-w-80"> empowering ideas with code</h2>
 
             <TextGenerateEffect className="text-center text-[40px] md:text-5xl lg:text-6xl" words={words} />
 
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-blue-100">
               HI, I&apos;m Chathuraka, Full-Stack Developer based in Sri Lanka.
-            </p>
-
-            <a href="/about">
-              <MagicButton title="Show my work" icon={<FaLocationArrow />} position="right" otherClasses="gap-2" />
-            </a>
+            </p>            <div className="flex sm:flex-row flex-col gap-5">
+                        <a href="#projects">
+                          <MagicButton title="Show my work" icon={<FaLocationArrow />} position="right" otherClasses="gap-2" />
+                        </a>
+                         <a href="/cv/Chathuraka.pdf" download>
+                          <MagicButton title="Download cv" icon={<FaLocationArrow />} position="right" otherClasses="gap-2" />
+                        </a>
+            </div>  
           </div>
         </div>
 
